@@ -140,7 +140,7 @@
     "@vue/compiler-dom" "3.2.37"
     "@vue/shared" "3.2.37"
 
-"@vue/devtools-api@^6.1.4":
+"@vue/devtools-api@^6.1.4", "@vue/devtools-api@^6.2.1":
   version "6.2.1"
   resolved "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.2.1.tgz"
   integrity sha512-OEgAMeQXvCoJ+1x8WyQuVZzFo0wcyCmUR3baRVLmKBo1LmYZWMlRiXlux5jd0fqVJu6PfDbOrZItVqUEzLobeQ==
@@ -1131,6 +1131,14 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.3.1:
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
+pinia@^2.0.20:
+  version "2.0.20"
+  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.20.tgz#3b7f1a5a660282fab6a0c83bae62c48ee0b1bc1f"
+  integrity sha512-fdHHumXW/0U5HhxmY1emo3I4z85p8NJPdbtFQSlmJXFe3ktuF0pYNVgVtk2q+j2zCtTufY763xzaEMx0t6T59g==
+  dependencies:
+    "@vue/devtools-api" "^6.2.1"
+    vue-demi "*"
+
 postcss-selector-parser@^6.0.9:
   version "6.0.10"
   resolved "https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.0.10.tgz"
@@ -1469,6 +1477,11 @@ void-elements@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/void-elements/-/void-elements-3.1.0.tgz"
   integrity sha512-Dhxzh5HZuiHQhbvTW9AMetFfBHDMYpo23Uo9btPXgdYP+3T5S+p+jgNy7spra+veYhBP2dCSgxR/i2Y02h5/6w==
+
+vue-demi@*:
+  version "0.13.9"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.13.9.tgz#95034b5f9df28ea141e58cb9e9e386db663df03b"
+  integrity sha512-+4hVlCaBMsX5O3cbYA8xyLAK6jFJVWhmHHmyYTFRkwPhGvyxJbBUfizZiuXCdmDnrGjj7k2n1mhHJ2JvT4JTtA==
 
 vue-eslint-parser@^9.0.1:
   version "9.0.3"
