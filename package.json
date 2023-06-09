@@ -18,12 +18,14 @@
   "devDependencies": {
     "@prettier/plugin-pug": "^2.2.0",
     "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/eslint-config-airbnb": "^7.0.0",
     "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-vue": "^9.3.0",
+    "eslint-plugin-vue": "^9.14.1",
     "prettier": "^2.7.1",
     "pug": "^3.0.2",
     "sass": "^1.54.4",
-    "vite": "^3.0.7"
+    "vite": "^3.0.7",
+    "vue-eslint-parser": "^9.3.0"
   }
 }
